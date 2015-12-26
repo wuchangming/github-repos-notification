@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Github Notification",
+    "description": "Monitor your github Repositories about star count, fork count, etc.",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_icon": "./img/icon.png",
+        "default_popup": "./popup.html",
+        "default_title": "Github Notification"
+    },
+    "permissions": [
+        "https://*.github.com/*"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "github-repos-notification",
+  "version": "0.0.1",
+  "description": "A Chrome Extension to monitor your github Repositories about star count, fork count, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuchangming/github-repos-notification.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "github",
+    "notification"
+  ],
+  "author": "Wu Changming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuchangming/github-repos-notification/issues"
+  },
+  "homepage": "https://github.com/wuchangming/github-repos-notification#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "beepbeep": "^1.2.0",
+    "gulp": "^3.9.0",
+    "jquery": "^2.1.4",
+    "webpack": "^1.12.9"
+  }
+}
